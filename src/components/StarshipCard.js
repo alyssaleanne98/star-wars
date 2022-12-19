@@ -12,9 +12,9 @@ const StarshipCard = ({ name, consumables, passengers, manufacturer }) => {
         <div className = "starship">
             
         <h3>Name: {name}</h3>
-        <h4>Consumables: {consumables}</h4>
-        <h4>Passengers: {passengers}</h4>
-        <h4>Manufacturer: {manufacturer}</h4>
+        <p>Consumables: {consumables}</p>
+        <p>Passengers: {passengers}</p>
+        <p>Manufacturer: {manufacturer}</p>
 
         </div>
         </>

@@ -1,25 +1,23 @@
 .App {
   text-align: center;
-  padding: 50px;
+  /* display: flex; */
+  flex-wrap: wrap;
   background-image: url("https://i.pinimg.com/originals/d7/a6/11/d7a61190a836bdcfc62bf97af4f4c74b.png");
   color: white;
   font-family: 'Orbitron';
   font-size: 28px;
-  
-}
 
+}
 .starship {
+  /* display: flex; */
   justify-content: center;
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-  flex-direction: column;
-  display: flex;
+  /* flex-direction: column; */
   border: 4px solid;
   border-radius: 25px;
   border-color: rgb(251, 255, 4);
   background-color: rgb(98, 98, 89);
   margin: 90px;
   width: 260px;
-  font-size: 18px;  
+  font-size: 18px; 
 
 }
